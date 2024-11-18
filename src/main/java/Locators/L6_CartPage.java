@@ -15,11 +15,11 @@ public class L6_CartPage {
 	//Links
 	public static By FirstProductNameInCartLink=By.xpath("(//td[@class=\"align_left\"])[1]");
 	public static By SecondProductNameInCartLink=By.xpath("(//td[@class=\"align_left\"])[3]");
-    public static By CheckOutLink=By.id("cart_checkout1");
-    public static By CheckOutLink_2=By.id("cart_checkout2");
-    public static By RemoveFirstItemFromCartLink=By.xpath("(//a[@class=\"btn btn-sm btn-default\"])[1]");
-    public static By RemoveSecondItemFromCartLink=By.xpath("(//a[@class=\"btn btn-sm btn-default\"])[2]");
-    public static By ContinueShoppingLink=By.xpath("(//a[@href=\"https://automationteststore.com/\"])[4]");
+        public static By CheckOutLink=By.id("cart_checkout1");
+        public static By CheckOutLink_2=By.id("cart_checkout2");
+        public static By RemoveFirstItemFromCartLink=By.xpath("(//a[@class=\"btn btn-sm btn-default\"])[1]");
+        public static By RemoveSecondItemFromCartLink=By.xpath("(//a[@class=\"btn btn-sm btn-default\"])[2]");
+        public static By ContinueShoppingLink=By.xpath("(//a[@href=\"https://automationteststore.com/\"])[4]");
 	//Buttons
 	public static By UpdateCartButton=By.id("cart_update");
 	//FormField
