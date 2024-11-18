@@ -9,8 +9,8 @@ public class DriverInitiator {
     public static SHAFT.GUI.WebDriver driver;
 
     public static void startDriverSession(){
-          String siteURL = "https://automationteststore.com/";
-          String siteTitle = "A place to practice your automation skills!";
+        String siteURL = "https://automationteststore.com/";
+        String siteTitle = "A place to practice your automation skills!";
         // Create new driver object
         driver = new SHAFT.GUI.WebDriver();
         // Go to the website
