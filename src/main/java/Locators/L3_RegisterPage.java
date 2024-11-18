@@ -13,7 +13,7 @@ public class L3_RegisterPage {
 	//Buttons
 	public static By ContinueRegistrationButton=By.cssSelector("button[title=\"Continue\"]");
 	//FormField
-    public static By FirstNameTextField=By.id("AccountFrm_firstname");
+        public static By FirstNameTextField=By.id("AccountFrm_firstname");
 	public static By LastNameTextField=By.id("AccountFrm_lastname");
 	public static By EmailTextField=By.id("AccountFrm_email");
 	public static By TelephoneNumberTextField=By.id("AccountFrm_telephone");
