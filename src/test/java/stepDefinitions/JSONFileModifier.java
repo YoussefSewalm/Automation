@@ -11,8 +11,6 @@ public class JSONFileModifier {
  private static ObjectNode JsonNode;
  
 private static ObjectMapper OpenFile(String FilePath) throws StreamReadException, DatabindException, IOException
- //Function Returns ObjectMapper Type --Static 3shan keda keda msh deh 2ly h3mlha access w ana b7ot l data
-//l functin 2ly esmha ModifyValue 2ly t7tha hya 2ly hst5dmha 3shan keda Public
  {
 	 JsonFile=new File(FilePath);
 	 ObjectMapper objectmapper=new ObjectMapper();
