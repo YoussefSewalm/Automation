@@ -6,7 +6,7 @@ import static Locators.L1_HomePage.*; //lazem Static w Lazem a7ot .* fl a5er
 public class P1_HomePage {
 
 	//Buttons
-    public static Buttons Search=new Buttons(SearchButton);
+        public static Buttons Search=new Buttons(SearchButton);
 	//Links
 	public static Links HeaderHomePage=new Links(HeaderHomePageLink);
 	public static Links CartPage=new Links(CartLink);
@@ -31,7 +31,7 @@ public class P1_HomePage {
 	//FormField
 	public static FormField SearchField=new FormField(SearchTextField);
 	//Text
-    public static Text VerifyHomePage=new Text(HomePageText);
+        public static Text VerifyHomePage=new Text(HomePageText);
 	//DropMenu
 	public static DropMenu HomeDropMenuAccountMenu=new DropMenu(HomeDropMenuAccountDropMenu);
 	public static DropMenu MyAccountMenu=new DropMenu(MyAccountDropMenu);
